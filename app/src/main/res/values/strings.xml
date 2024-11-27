@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MIPT5</string>
+    <string name="filter_hint">Filter by currency code</string>
+</resources>

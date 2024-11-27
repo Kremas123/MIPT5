@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for filtering currency -->
+    <EditText
+        android:id="@+id/editTextFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/filter_hint"
+        android:importantForAutofill="yes"
+        android:autofillHints="username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- ListView for displaying exchange rates -->
+    <ListView
+        android:id="@+id/listViewRates"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
